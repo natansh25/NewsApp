@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="10dp"
+        android:text="Title is the best"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/txt_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:fontFamily="serif-monospace"
+        android:maxLength="140"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Description is what people want in life to excel like any other being in the world"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:paddingBottom="20dp"
+        android:layout_margin="15dp"
+        android:background="#B71C1C"
+        android:id="@+id/view"
+        />
+
+
+
+</LinearLayout>

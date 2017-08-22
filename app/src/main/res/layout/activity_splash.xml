@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:layout_width="300dp"
+
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:id="@+id/img"
+        android:src="@drawable/techcrunch_logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_gravity="center">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/giphy"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/vod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+
+        android:gravity="center"
+        android:text="By"
+        android:textColor="@android:color/background_dark"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/img2"
+
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:baselineAlignBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/natansh"
+
+        />
+
+
+</LinearLayout>
