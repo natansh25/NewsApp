@@ -15,10 +15,11 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
 
-
+// generate your own Api key from tech crunch developers site and paste it between the {}
+    //  and remove the {} after adding the api key
 
     private static final String USGS_REQUEST_URL =
-            "https://newsapi.org/v1/articles?source=techcrunch&sortBy=latest&apiKey=7289b9589f23462e8b94db992528ec61";
+            "https://newsapi.org/v1/articles?source=techcrunch&sortBy=latest&apiKey={}";
 
 
 
